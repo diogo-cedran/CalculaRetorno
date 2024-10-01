@@ -19,11 +19,9 @@ O projeto é dividido em três principais arquivos:
 
 ## Como Utilizar
 
-1. Faça o download ou clone o repositório.
-   ```bash
-   git clone https://github.com/seu-usuario/CalculaRetorno.git
-   ```
-2. Abra o arquivo `index.html` em qualquer navegador de internet.
+Acesse o aplicativo diretamente pelo link abaixo:
+
+[CalculaRetorno - https://diogo-cedran.github.io/CalculaRetorno/](https://diogo-cedran.github.io/CalculaRetorno/)
 
 ## Exemplo de Uso
 
