@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Hora de Almoço</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cálculo da Hora para Retornar do Almoço</h1>
+        <p>Insira o horário de saída para o almoço e a duração para calcular o horário correto de retorno.</p>
+
+        <form id="lunchForm">
+            <div class="input-group">
+                <label for="lunchTime">Hora de saída para almoço</label>
+                <input type="time" id="lunchTime" required>
+            </div>
+
+            <div class="input-group">
+                <label for="lunchDuration">Duração do almoço (padrão: 1h 12min)</label>
+                <input type="time" id="lunchDuration" value="01:12">
+            </div>
+
+            <button type="submit">Calcular Hora de Retorno</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
